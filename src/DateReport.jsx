@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 import times from "lodash/times";
+import DownloadAction from "./DownloadAction";
+import { Button } from "@material-ui/core";
 import { DateRangePicker } from "materialui-daterange-picker";
 import { makeStyles } from "@material-ui/core/styles";
 import Radio from "@material-ui/core/Radio";
@@ -9,7 +11,7 @@ import { Dialog } from "@material-ui/core";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
-import data2 from './dateData.json'
+import data2 from "./dateData.json";
 
 const dateFilter = (start_date, end_date) => {
   return data2.filter((x) => {
@@ -66,20 +68,31 @@ export default function App() {
         </div>
         <div className="col-4">
           <select name="year" id="year" onChange={handleYearChange}>
-            <option value={2020}> { year || 'Type by year'} </option>
+            <option value={2020}> {year || "Type by year"} </option>
             <option value={2018}> 2018 </option>
             <option value={2019}> 2019 </option>
             <option value={2020}> 2020 </option>
           </select>
         </div>
+        <Button onClick={() => DownloadAction("download")}>
+          {" "}
+          <CloudDownloadIcon fontSize="large" />{" "}
+        </Button>
       </div>
       {Object.keys(total_prod).length ? (
-        <table className="table_main" width="100%">
-          <caption> <Typography >Viewing data for week {Number(week)+1} : year {year} </Typography></caption>
+        <table id="download" className="table_main " width="100%">
+          <caption>
+            {" "}
+            <Typography>
+              Viewing data for week {Number(week) + 1} : year {year}{" "}
+            </Typography>
+          </caption>
           {Object.keys(total_prod).map((x) => {
             return (
               <>
-                <tr><th colspan="2"> {x} </th></tr>
+                <tr>
+                  <th colspan="2"> {x} </th>
+                </tr>
                 <tr>
                   <td>Assigned </td>
                   <td>{total_prod[x].assigned}</td>

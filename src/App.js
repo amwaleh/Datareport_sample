@@ -286,7 +286,7 @@ function App() {
       <h1> Delivery report </h1>
 
       <div className="container col-12 row mt-5 mb-5">
-        <div className="col-4">
+        <div className="date-section">
           <select
             name="cars"
             id="cars"
@@ -294,21 +294,13 @@ function App() {
             onChange={handleItemsChange}
           >
             <option value={undefined}>All items </option>
-            {allKeys.map((k) => (
-              <option value={k}>{k}</option>
-            ))}
+            {allKeys.map((k) => (<option value={k}>{k}</option>))}
           </select>
-        </div>
-      </div>
-      <div className="row col-12 justify-content-end">
-        <div className="col-6"> </div>
-
-        <div className="col-1 ">
           <Button onClick={() => DownloadAction("download")}>
-            {" "}
-            <CloudDownloadIcon fontSize="large" />{" "}
+            <CloudDownloadIcon fontSize="large" />
           </Button>
         </div>
+      
       </div>
       <div id="download">
         {res1}
