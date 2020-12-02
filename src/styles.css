@@ -91,9 +91,11 @@ border-radius:3px;
 
 .topControl {
 border-bottom: 1px solid #ccc;
+padding-left: 10%;
 }
 .control {
 display: flex;
 width:500px;
 flex-flow:row;
+
 }
