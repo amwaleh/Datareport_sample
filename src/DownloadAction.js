@@ -11,8 +11,8 @@ const DownloadAction = (id) => {
     const pdfWidth = pdf.internal.pageSize.getWidth()
     const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width
     pdf.addImage(imgData, 'JPEG', 5, 5, pdfWidth - 10, pdfHeight - 20)
-    // pdf.save("delivery-report.pdf");
-   pdf.autoPrint()
+    pdf.save("delivery-report.pdf");
+   //pdf.autoPrint()
     //pdf.output('dataurlnewwindow')
   })
 }

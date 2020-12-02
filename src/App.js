@@ -99,7 +99,7 @@ const data = [
       }
       // "Total Units" : { total_assigned: 82, total_delivered: 78}
     },
-    "09": {
+    "rope": {
       Administrator: {
         units: ["{'assigned': 10, 'delivered': 10.0}"],
         total_delivered: 9,
@@ -184,7 +184,19 @@ const useStyles = makeStyles({
 //   return dateFilter(start, end);
 // };
 // const weekly = filterByWeek();
-
+// const Images = styled.div`
+// left:0;
+// width:100%;
+// height:100%;
+// min-height: 300px;
+// margin-right:10px;
+// background-image: url(${props =>
+//   `'https://source.unsplash.com/600x300/?${props.topic} ${Math.random()}'`});
+// background-repeat: no-repeat;
+// background-position: center;
+// background-size: cover;
+// border-radius:5px;
+// filter: grayscale(0.6) hue-rotate(20deg) brightness(1.15);
 function App() {
   const [open, setOpen] = React.useState(false);
 
@@ -206,7 +218,7 @@ function App() {
   const res1 = items.map((itemd) => {
     console.log(itemd);
     return (
-      <table className="table_main" width="100%">
+      <table className="table_main" >
         <tr><caption>Item : {itemd} </caption></tr>
         <tr>
           <th> Assignee </th>
