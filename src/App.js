@@ -9,114 +9,116 @@ import { makeStyles } from "@material-ui/core/styles";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 
 const data = [
-  {
-    "Hat: Knit Acrylic": {
-      Administrator: {
-        units: ["{'assigned': 1, 'delivered': 1.0}"],
-        total_delivered: 1,
-        total_assigned: 1.0,
-        delivered: [1],
-        assigned: [1.0]
+  
+    {
+      "Hat: Knit Acrylic": {
+        Administrator: {
+          units: ["{'assigned': 1, 'delivered': 1.0}"],
+          total_delivered: 1,
+          total_assigned: 1.0,
+          delivered: [1],
+          assigned: [1.0]
+        },
+        "Muthupillai": {
+          units: ["{'assigned': 10, 'delivered': 10.0}"],
+          total_delivered: 10,
+          total_assigned: 10.0,
+          delivered: [10],
+          assigned: [10.0]
+        },
+        "S.Saraswathi": {
+          units: ["{'assigned': 2, 'delivered': 2.0}"],
+          total_delivered: 2,
+          total_assigned: 2.0,
+          delivered: [2],
+          assigned: [2.0]
+        },
+        "Poornapetchi": {
+          units: ["{'assigned': 10, 'delivered': 10.0}"],
+          total_delivered: 10,
+          total_assigned: 10.0,
+          delivered: [10],
+          assigned: [10.0]
+        },
+        "Anastassia Happel": {
+          units: ["{'assigned': 50, 'delivered': 50.0}"],
+          total_delivered: 50,
+          total_assigned: 50.0,
+          delivered: [50],
+          assigned: [50.0]
+        },
+        "Vijayalakshmi": {
+          units: ["{'assigned': 1, 'delivered': 1.0}"],
+          total_delivered: 1,
+          total_assigned: 1.0,
+          delivered: [1],
+          assigned: [1.0]
+        }
       },
-      "maryk@poweredbypeople.io": {
-        units: ["{'assigned': 10, 'delivered': 10.0}"],
-        total_delivered: 10,
-        total_assigned: 10.0,
-        delivered: [10],
-        assigned: [10.0]
+      "Big Botanisk Pot": {
+       "Nanthini": {
+          units: ["{'assigned': 11, 'delivered': 11.0}"],
+          total_delivered: 11,
+          total_assigned: 11.0,
+          delivered: [11],
+          assigned: [11.0]
+        },
+        "Mareeswari": {
+          units: ["{'assigned': 11, 'delivered': 11.0}"],
+          total_delivered: 11,
+          total_assigned: 11.0,
+          delivered: [11],
+          assigned: [11.0]
+        },
+        "M Selvi": {
+          units: ["{'assigned': 50, 'delivered': 50.0}"],
+          total_delivered: 50,
+          total_assigned: 50.0,
+          delivered: [50],
+          assigned: [50.0]
+        },
+        "Pandeeswari": {
+          units: ["{'assigned': 1, 'delivered': 1.0}"],
+          total_delivered: 1,
+          total_assigned: 1.0,
+          delivered: [1],
+          assigned: [1.0]
+        },
+        "Poornapetchi": {
+          units: ["{'assigned': 1, 'delivered': 1.0}"],
+          total_delivered: 1,
+          total_assigned: 1.0,
+          delivered: [1],
+          assigned: [1.0]
+        },
+        "Chinnamal": {
+          units: ["{'assigned': 4, 'delivered': 8.0}"],
+          total_delivered: 4,
+          total_assigned: 8.0,
+          delivered: [4],
+          assigned: [8.0]
+        }
+    
       },
-      "zawi@gmail.com": {
-        units: ["{'assigned': 2, 'delivered': 2.0}"],
-        total_delivered: 2,
-        total_assigned: 2.0,
-        delivered: [2],
-        assigned: [2.0]
-      },
-      "hillodhia@gmail.com": {
-        units: ["{'assigned': 10, 'delivered': 10.0}"],
-        total_delivered: 10,
-        total_assigned: 10.0,
-        delivered: [10],
-        assigned: [10.0]
-      },
-      "josepererh@poweredbypeople.io": {
-        units: ["{'assigned': 50, 'delivered': 50.0}"],
-        total_delivered: 50,
-        total_assigned: 50.0,
-        delivered: [50],
-        assigned: [50.0]
-      },
-      "annemukii2@gmail.com": {
-        units: ["{'assigned': 1, 'delivered': 1.0}"],
-        total_delivered: 1,
-        total_assigned: 1.0,
-        delivered: [1],
-        assigned: [1.0]
+      "Muthulakshmi": {
+        Administrator: {
+          units: ["{'assigned': 10, 'delivered': 10.0}"],
+          total_delivered: 9,
+          total_assigned: 10.0,
+          delivered: [9],
+          assigned: [10.0]
+        },
+       "Nanthini": {
+          units: ["{'assigned': 1, 'delivered': 1.0}"],
+          total_delivered: 0,
+          total_assigned: 1.0,
+          delivered: [0],
+          assigned: [1.0]
+        }
+      
       }
-    },
-    "Big Botanisk Pot": {
-      "mary@b.com": {
-        units: ["{'assigned': 11, 'delivered': 11.0}"],
-        total_delivered: 11,
-        total_assigned: 11.0,
-        delivered: [11],
-        assigned: [11.0]
-      },
-      "igmirsedarcom@maliberty.com": {
-        units: ["{'assigned': 11, 'delivered': 11.0}"],
-        total_delivered: 11,
-        total_assigned: 11.0,
-        delivered: [11],
-        assigned: [11.0]
-      },
-      "maryk@poweredbypeople.io": {
-        units: ["{'assigned': 50, 'delivered': 50.0}"],
-        total_delivered: 50,
-        total_assigned: 50.0,
-        delivered: [50],
-        assigned: [50.0]
-      },
-      "extraessential@birdnacan.tk": {
-        units: ["{'assigned': 1, 'delivered': 1.0}"],
-        total_delivered: 1,
-        total_assigned: 1.0,
-        delivered: [1],
-        assigned: [1.0]
-      },
-      "hillodhia@gmail.com": {
-        units: ["{'assigned': 1, 'delivered': 1.0}"],
-        total_delivered: 1,
-        total_assigned: 1.0,
-        delivered: [1],
-        assigned: [1.0]
-      },
-      "dm@nistr.ator": {
-        units: ["{'assigned': 4, 'delivered': 8.0}"],
-        total_delivered: 4,
-        total_assigned: 8.0,
-        delivered: [4],
-        assigned: [8.0]
-      }
-      // "Total Units" : { total_assigned: 82, total_delivered: 78}
-    },
-    "rope": {
-      Administrator: {
-        units: ["{'assigned': 10, 'delivered': 10.0}"],
-        total_delivered: 9,
-        total_assigned: 10.0,
-        delivered: [9],
-        assigned: [10.0]
-      },
-      "mary@b.com": {
-        units: ["{'assigned': 1, 'delivered': 1.0}"],
-        total_delivered: 0,
-        total_assigned: 1.0,
-        delivered: [0],
-        assigned: [1.0]
-      }
-      // "Total Units" : { total_assigned: 11, total_delivered: 9}
     }
-  }
+  
 ];
 
 const options = {

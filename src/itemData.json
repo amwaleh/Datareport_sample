@@ -8,35 +8,35 @@
         delivered: [1],
         assigned: [1.0]
       },
-      "maryk@poweredbypeople.io": {
+      "Muthupillai": {
         units: ["{'assigned': 10, 'delivered': 10.0}"],
         total_delivered: 10,
         total_assigned: 10.0,
         delivered: [10],
         assigned: [10.0]
       },
-      "zawi@gmail.com": {
+      "S.Saraswathi": {
         units: ["{'assigned': 2, 'delivered': 2.0}"],
         total_delivered: 2,
         total_assigned: 2.0,
         delivered: [2],
         assigned: [2.0]
       },
-      "hillodhia@gmail.com": {
+      "Poornapetchi": {
         units: ["{'assigned': 10, 'delivered': 10.0}"],
         total_delivered: 10,
         total_assigned: 10.0,
         delivered: [10],
         assigned: [10.0]
       },
-      "josepererh@poweredbypeople.io": {
+      "Anastassia Happel": {
         units: ["{'assigned': 50, 'delivered': 50.0}"],
         total_delivered: 50,
         total_assigned: 50.0,
         delivered: [50],
         assigned: [50.0]
       },
-      "annemukii2@gmail.com": {
+      "Vijayalakshmi": {
         units: ["{'assigned': 1, 'delivered': 1.0}"],
         total_delivered: 1,
         total_assigned: 1.0,
@@ -45,42 +45,42 @@
       }
     },
     "Big Botanisk Pot": {
-      "mary@b.com": {
+     "Nanthini": {
         units: ["{'assigned': 11, 'delivered': 11.0}"],
         total_delivered: 11,
         total_assigned: 11.0,
         delivered: [11],
         assigned: [11.0]
       },
-      "igmirsedarcom@maliberty.com": {
+      "Mareeswari": {
         units: ["{'assigned': 11, 'delivered': 11.0}"],
         total_delivered: 11,
         total_assigned: 11.0,
         delivered: [11],
         assigned: [11.0]
       },
-      "maryk@poweredbypeople.io": {
+      "M Selvi": {
         units: ["{'assigned': 50, 'delivered': 50.0}"],
         total_delivered: 50,
         total_assigned: 50.0,
         delivered: [50],
         assigned: [50.0]
       },
-      "extraessential@birdnacan.tk": {
+      "Pandeeswari": {
         units: ["{'assigned': 1, 'delivered': 1.0}"],
         total_delivered: 1,
         total_assigned: 1.0,
         delivered: [1],
         assigned: [1.0]
       },
-      "hillodhia@gmail.com": {
+      "Poornapetchi": {
         units: ["{'assigned': 1, 'delivered': 1.0}"],
         total_delivered: 1,
         total_assigned: 1.0,
         delivered: [1],
         assigned: [1.0]
       },
-      "dm@nistr.ator": {
+      "Chinnamal": {
         units: ["{'assigned': 4, 'delivered': 8.0}"],
         total_delivered: 4,
         total_assigned: 8.0,
@@ -89,7 +89,7 @@
       }
   
     },
-    "09": {
+    "Muthulakshmi": {
       Administrator: {
         units: ["{'assigned': 10, 'delivered': 10.0}"],
         total_delivered: 9,
@@ -97,7 +97,7 @@
         delivered: [9],
         assigned: [10.0]
       },
-      "mary@b.com": {
+     "Nanthini": {
         units: ["{'assigned': 1, 'delivered': 1.0}"],
         total_delivered: 0,
         total_assigned: 1.0,
